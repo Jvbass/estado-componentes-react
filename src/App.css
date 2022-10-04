@@ -1,0 +1,58 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  background: var(--light);
+  border-radius: 1rem;
+  height: 300px; 
+  margin: 1rem;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  box-shadow: 14px 14px 28px var(--shadow-light),
+   0 10px 10px var(--shadow-light);
+}
+
+.form-input {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input input {
+  border-radius: .25rem;
+  border: none;
+  margin: 0.25rem;
+  font-size: 1rem;
+  padding: 0.175rem;
+}
+button {
+  box-shadow: 0px 10px 14px -7px var(--dark);
+  background-color: var(--secondary);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: var(--light);
+  font-size: 20px;
+  padding: 0.5rem 1.25rem;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: var(--primary);
+}
+
+.error{
+  color: var(--primary);
+}
+
+.disabled{
+  opacity: 0%;
+}
